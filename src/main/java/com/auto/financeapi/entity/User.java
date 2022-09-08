@@ -15,11 +15,7 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import org.hibernate.validator.constraints.Length;
-/**
- * 
- * @author saivamsit thorthi
- *
- */
+
 @Entity
 @Table(name = "users")
 public class User {
