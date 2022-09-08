@@ -19,6 +19,7 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+<<<<<<< HEAD
 
 
 /**
@@ -28,6 +29,10 @@ import lombok.NoArgsConstructor;
  */
 //design pattern
 
+=======
+///hai
+//okay
+>>>>>>> 7fe728f349a95da41e5d715b93ce1706b4f1a302
 @Entity
 @Table(name = "dealers")
 @AllArgsConstructor

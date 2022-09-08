@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 import com.auto.financeapi.entity.AuthRequest;
 import com.auto.financeapi.entity.ResponseSuccess;
 import com.auto.financeapi.service.impl.UserService;
-//hai
-//cherry peeking
 
+
+//hoi
 @RestController
 @RequestMapping(value = "stgit.com/financeapi")
 public class UserController {
-//rerbasing file in master
+//vvvv
 	@Autowired
 	private UserService userService;
 
