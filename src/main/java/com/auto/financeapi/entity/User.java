@@ -20,9 +20,7 @@ import org.hibernate.validator.constraints.Length;
 @Table(name = "users")
 public class User {
 ///vamsi
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int userId;
+	priavate String vamsi;
 
 	@Column(unique = true, nullable = false)
 	private String emailId;
