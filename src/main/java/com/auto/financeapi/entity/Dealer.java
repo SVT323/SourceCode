@@ -20,6 +20,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * 
+ * @author saivamsit
+ *
+ */
 @Entity
 @Table(name = "dealers")
 @AllArgsConstructor
