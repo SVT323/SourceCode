@@ -19,15 +19,19 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+
+
 ///hai
 //okay
+
 @Entity
 @Table(name = "dealers")
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 public class Dealer {
-
+// merging in master
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(unique = true)
