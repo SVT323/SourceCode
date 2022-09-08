@@ -19,27 +19,19 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-<<<<<<< HEAD
 
 
-/**
- * 
- * @author saivamsit
- *
- */
-//design pattern
 
-=======
 ///hai
 //okay
->>>>>>> 7fe728f349a95da41e5d715b93ce1706b4f1a302
+
 @Entity
 @Table(name = "dealers")
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 public class Dealer {
-
+// merging in master
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(unique = true)
