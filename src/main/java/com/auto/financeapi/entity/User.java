@@ -21,6 +21,7 @@ import org.hibernate.validator.constraints.Length;
  *
  */
 //for master brnach merge
+//for second merge
 @Entity
 @Table(name = "users")
 public class User {
