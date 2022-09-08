@@ -27,7 +27,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * 
- * @author saivamsit
+ * @author saivamsit throthi
  *
  */
 @Entity
