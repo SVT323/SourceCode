@@ -15,7 +15,7 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import org.hibernate.validator.constraints.Length;
-
+<<<<<<< HEAD
 /**
  * 
  * @author saivamsit
@@ -23,9 +23,9 @@ import org.hibernate.validator.constraints.Length;
  */
 //for master brnach merge
 //for second merge
+=======
 
-//reverting
-
+>>>>>>> 7fe728f349a95da41e5d715b93ce1706b4f1a302
 @Entity
 @Table(name = "users")
 public class User {
