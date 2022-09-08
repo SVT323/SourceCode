@@ -19,9 +19,10 @@ import org.hibernate.validator.constraints.Length;
 @Entity
 @Table(name = "users")
 public class User {
-///vamsi
-	priavate String vamsi;
 
+	priavate String vamsi;
+	
+	@generated jdngv
 	@Column(unique = true, nullable = false)
 	private String emailId;
 
