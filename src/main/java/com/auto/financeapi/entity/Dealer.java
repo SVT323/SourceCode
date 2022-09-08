@@ -26,7 +26,7 @@ import lombok.NoArgsConstructor;
  * @author saivamsit
  *
  */
-///hai
+//design pattern
 
 @Entity
 @Table(name = "dealers")
