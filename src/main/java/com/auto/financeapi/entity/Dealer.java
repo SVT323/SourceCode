@@ -20,13 +20,15 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
+//revrt message
 /**
  * 
  * @author saivamsit
  *
  */
 ///hai
+
+//one Rupree
 
 @Entity
 @Table(name = "dealers")
