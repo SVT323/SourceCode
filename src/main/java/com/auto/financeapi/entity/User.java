@@ -19,7 +19,7 @@ import org.hibernate.validator.constraints.Length;
 @Entity
 @Table(name = "users")
 public class User {
-
+///vamsi
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int userId;
