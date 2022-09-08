@@ -20,6 +20,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 ///hai
+//okay
 @Entity
 @Table(name = "dealers")
 @AllArgsConstructor
