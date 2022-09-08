@@ -19,11 +19,15 @@ import org.hibernate.validator.constraints.Length;
 @Entity
 @Table(name = "users")
 public class User {
+
 	
  @Id//vamsi
 	@GeneratedValue
 	private int userId;
 
+
+	private String vamsi;
+	
 	@Column(unique = true, nullable = false)
 	private String emailId;
 
