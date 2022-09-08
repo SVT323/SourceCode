@@ -20,6 +20,7 @@ import org.hibernate.validator.constraints.Length;
  * @author saivamsit
  *
  */
+//for master brnach merge
 @Entity
 @Table(name = "users")
 public class User {
