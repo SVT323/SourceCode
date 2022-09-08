@@ -16,8 +16,8 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import org.hibernate.validator.constraints.Length;
 /**
- * 
- * @author saivamsit
+ *  
+ * @author saivamsit sai
  *
  */
 @Entity
